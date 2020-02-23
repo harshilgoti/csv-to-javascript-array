@@ -99,7 +99,7 @@ function App() {
 
       <p>Output will show in console log</p>
 
-      <input type="submit" onClick={csvJSON} />
+     {imageFileURL&&<input type="submit" onClick={csvJSON} />} 
 
       {DetailPanelWithRowClick()}
       
