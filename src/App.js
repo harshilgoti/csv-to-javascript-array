@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className="App">
-   <label htmlFor="myfile">Select files:</label>
+      <label htmlFor="myfile">Select CSV files:</label>
       <input
         type="file"
         id="myfile"
@@ -58,6 +58,7 @@ function App() {
         multiple
         onChange={handleChangeCsv}
       />
+      <p>Output will show in console log</p>
       <input type="submit" onClick={csvJSON} />
     </div>
   );
